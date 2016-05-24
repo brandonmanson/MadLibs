@@ -14,6 +14,7 @@
 @property (strong, nonatomic) NSString *sentence;
 @property (weak, nonatomic) IBOutlet UILabel *outputText;
 
+-(void)reset;
 
 @end
 

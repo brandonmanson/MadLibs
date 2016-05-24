@@ -23,12 +23,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self reset];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (void)reset {
+    _nounOneInput.text = @"";
+    _verbOneInput.text = @"";
+    _adjectiveInput.text = @"";
+    _adverbInput.text = @"";
+    _nounTwoInput.text = @"";
+    _verbTwoInput.text = @"";
+    _outputText.text = @"The ___ likes to ___ the ___ ___ while ___ ___";
+}
+
 - (IBAction)createMadLibsBtn:(UIButton *)sender {
     NSString *nounOne = _nounOneInput.text;
     NSString *verbOne = _verbOneInput.text;
