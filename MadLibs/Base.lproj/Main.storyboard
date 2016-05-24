@@ -61,6 +61,9 @@
                                 <state key="normal" title="Create!">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="createMadLibsBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gld-8R-IDz"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="enter another noun" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sYe-xC-zbC">
                                 <rect key="frame" x="20" y="228" width="136" height="30"/>
@@ -80,6 +83,7 @@
                         <outlet property="adverbInput" destination="Q15-hG-K1i" id="ljy-Bx-BuR"/>
                         <outlet property="nounOneInput" destination="mQ3-zN-6wC" id="FU7-gS-s6d"/>
                         <outlet property="nounTwoInput" destination="sYe-xC-zbC" id="t4j-3g-hgH"/>
+                        <outlet property="outputText" destination="FNu-Z8-QnT" id="0c9-8Z-orU"/>
                         <outlet property="verbOneInput" destination="xK2-Qu-A9G" id="wXp-Zj-D8D"/>
                         <outlet property="verbTwoInput" destination="qKi-lD-5Gq" id="E0L-aZ-Bio"/>
                     </connections>
